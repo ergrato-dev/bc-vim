@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.netrwhist
+.vim/
+nvim/
+
+# Session files
+Session.vim
+*.session.vim
+
+# Undo files
+*.un~
+
+# Logs
+scripts/logs/*.log
+
+# PDF exports
+*.pdf
+
+# IDE
+.idea/
+*.iml
+.vscode/settings.json
