@@ -1,0 +1,23 @@
+# Plugins (se instalan con lazy.nvim, no forman parte de los dotfiles)
+lazy-lock.json.backup
+
+# Archivos temporales de Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Sesiones
+session.vim
+*.session.vim
+
+# Datos de Neovim (se regeneran)
+plugin/packer_compiled.lua
+spell/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Screenshots no son código pero pueden estar si no querés subirlas
+# screenshots/
