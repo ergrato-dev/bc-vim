@@ -1,0 +1,47 @@
+# Configuración de la Aplicación — v1.0 (OBSOLETO)
+# Necesita refactorización para v2.0
+
+[servidor]
+host = "localhost"       # Cambiar a IP de producción
+puerto = 3000            # Usar 8080
+ssl_habilitado = false   # Activar en producción
+ssl_cert = "/ruta/antigua/cert.pem"  # Ruta obsoleta
+
+[base_datos]
+tipo = "mysql"           # Migrar a PostgreSQL
+host = "localhost"
+puerto = 3306
+nombre = "app_db_vieja"  # Renombrar a app_db_v2
+usuario = "admin"
+password = "password123" # INSEGURO — cambiar
+
+[logs]
+nivel = "debug"          # Cambiar a "info" en producción
+archivo = "/tmp/app.log" # Usar ruta estándar: /var/log/app.log
+formato = "texto"        # Cambiar a "json"
+
+[cache]
+habilitado = false       # Debería estar activado
+tipo = "memoria"
+tiempo_vida = 300
+maximo_elementos = 1000
+
+[api_externa]
+# Esta sección está obsoleta y debe ser eliminada
+url = "https://api-vieja.example.com/v1"
+version = "v1"
+api_key = "deprecated-key-12345"
+timeout = 30
+
+[notificaciones]
+email = true
+email_destinatario = "admin@example.com"
+push = false
+slack_webhook = ""
+
+[caracteristicas]
+modo_oscuro = false
+idioma = "en"            # Cambiar a "es"
+limite_usuarios = 100    # Aumentar a 500
+depuracion = true        # Debe ser false en producción
+beta = true              # Eliminar esta opción (ya salió de beta)
