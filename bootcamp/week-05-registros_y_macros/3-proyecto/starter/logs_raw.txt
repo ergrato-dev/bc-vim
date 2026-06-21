@@ -1,0 +1,15 @@
+[2024-01-15 10:30:01] INFO Conexion aceptada desde 192.168.1.10
+[2024-01-15 10:30:05] ERROR Timeout en consulta a base_datos
+[2024-01-15 10:30:10] WARN Memoria alta: 85%
+[2024-01-15 10:30:15] DEBUG Variable x = 42, y = 17
+[2024-01-15 10:31:00] INFO Respuesta enviada a cliente
+[2024-01-15 10:31:22] ERROR Archivo no encontrado: config.json
+[2024-01-15 10:31:45] WARN Reintento de conexion (3/5)
+[2024-01-15 10:32:00] DEBUG Cache invalidado para usuario 1001
+[2024-01-15 10:32:30] INFO Script de backup iniciado
+[2024-01-15 10:33:00] ERROR Permiso denegado al acceder a /data
+[2024-01-15 10:33:15] WARN Temperatura CPU: 78C (umbral: 80C)
+[2024-01-15 10:33:30] DEBUG Request headers: {auth: bearer, type: json}
+[2024-01-15 10:34:00] INFO Servicio reiniciado correctamente
+[2024-01-15 10:34:45] ERROR Division por cero en modulo calculos
+[2024-01-15 10:35:00] WARN Espacio en disco: 12% libre
