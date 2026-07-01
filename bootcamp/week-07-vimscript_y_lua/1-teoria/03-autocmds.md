@@ -15,6 +15,8 @@
 
 Un autocomando es una función que se ejecuta automáticamente en respuesta a un **evento** de Vim.
 
+![Flujo de un autocomando: evento dispara autocmd que ejecuta un callback](../0-assets/03-autocmd-evento-flujo.svg)
+
 ```text
 Ejemplos cotidianos:
 - Al guardar un archivo → formatear código

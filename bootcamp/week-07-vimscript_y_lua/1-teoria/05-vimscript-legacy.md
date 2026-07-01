@@ -175,6 +175,8 @@ endfunction
 
 ### 8. Interoperar Vimscript y Lua
 
+![Interoperabilidad bidireccional entre Vimscript y Lua](../0-assets/05-interop-vimscript-lua.svg)
+
 **Llamar Vimscript desde Lua**:
 ```lua
 -- Ejecutar Ex commands

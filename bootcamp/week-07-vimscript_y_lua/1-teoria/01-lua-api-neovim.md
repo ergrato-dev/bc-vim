@@ -15,6 +15,8 @@
 
 Neovim 0.5+ adoptó Lua como lenguaje de configuración de primera clase. Ventajas sobre Vimscript:
 
+![Comparación de filosofía entre Vimscript y Lua como lenguaje de configuración](../0-assets/01-vimscript-vs-lua-filosofia.svg)
+
 ```text
 Vimscript:                    Lua:
 let g:mapleader = " "         vim.g.mapleader = " "

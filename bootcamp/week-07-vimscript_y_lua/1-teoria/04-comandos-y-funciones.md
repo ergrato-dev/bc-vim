@@ -15,6 +15,8 @@
 
 Permiten crear nuevos comandos `:` como si fueran nativos de Vim.
 
+![Anatomía de nvim_create_user_command: nombre, callback y opciones](../0-assets/04-anatomia-comando-usuario.svg)
+
 ```lua
 vim.api.nvim_create_user_command({nombre}, {callback}, {opciones})
 --                                  ↑          ↑           ↑

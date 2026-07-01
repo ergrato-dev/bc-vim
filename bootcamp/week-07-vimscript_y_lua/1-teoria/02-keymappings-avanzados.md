@@ -49,6 +49,8 @@ vim.keymap.set({ "n", "v" }, "<leader>y", '"+y', { desc = "Copiar al sistema" })
 
 ### 2. `rhs` vs `callback`
 
+![Contraste entre rhs como string y callback como función Lua en vim.keymap.set](../0-assets/02-rhs-vs-callback.svg)
+
 ```lua
 -- Forma CONCISA: rhs (right-hand side) como string
 vim.keymap.set("n", "<leader>s", "<cmd>w<CR>", { desc = "Guardar" })
