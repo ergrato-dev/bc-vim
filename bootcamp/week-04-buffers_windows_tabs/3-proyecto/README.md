@@ -241,11 +241,11 @@ Crea `~/workspace-config.md` con la documentación de tu configuración.
 
 ## 📚 Recursos
 
-- [Teoría: Buffers](../../1-teoria/01-buffers.md)
-- [Teoría: Ventanas y Splits](../../1-teoria/02-ventanas-splits.md)
-- [Teoría: Navegación entre Ventanas](../../1-teoria/03-navegacion-ventanas.md)
-- [Teoría: Pestañas](../../1-teoria/04-pestanas.md)
-- [Teoría: netrw y :help](../../1-teoria/05-netrw-y-help.md)
+- [Teoría: Buffers](../1-teoria/01-buffers.md)
+- [Teoría: Ventanas y Splits](../1-teoria/02-ventanas-splits.md)
+- [Teoría: Navegación entre Ventanas](../1-teoria/03-navegacion-ventanas.md)
+- [Teoría: Pestañas](../1-teoria/04-pestanas.md)
+- [Teoría: netrw y :help](../1-teoria/05-netrw-y-help.md)
 
 ---
 
