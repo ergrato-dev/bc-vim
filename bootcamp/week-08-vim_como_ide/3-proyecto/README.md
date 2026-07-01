@@ -129,11 +129,11 @@ Capturas de pantalla mostrando:
 
 ## 📚 Recursos
 
-- [Teoría: LSP y Mason](../../1-teoria/01-lsp-mason.md)
-- [Teoría: Autocompletado](../../1-teoria/02-autocompletado-cmp.md)
-- [Teoría: Treesitter](../../1-teoria/03-treesitter.md)
-- [Teoría: Debugging](../../1-teoria/04-dap-debugging.md)
-- [Teoría: Terminal y Snippets](../../1-teoria/05-terminal-y-snippets.md)
+- [Teoría: LSP y Mason](../1-teoria/01-lsp-mason.md)
+- [Teoría: Autocompletado](../1-teoria/02-autocompletado-cmp.md)
+- [Teoría: Treesitter](../1-teoria/03-treesitter.md)
+- [Teoría: Debugging](../1-teoria/04-dap-debugging.md)
+- [Teoría: Terminal y Snippets](../1-teoria/05-terminal-y-snippets.md)
 
 ---
 
