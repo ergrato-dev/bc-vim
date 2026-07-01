@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240">
+  <rect width="640" height="240" fill="#1e1e2e"/>
+
+  <defs>
+    <marker id="am" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0,8 3,0 6" fill="#585b70"/>
+    </marker>
+  </defs>
+
+  <text x="320" y="26" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle">:argdo — ejecutar un comando en todo el arglist</text>
+
+  <!-- Step 1 -->
+  <rect x="20" y="60" width="140" height="100" rx="8" fill="#252535" stroke="#89b4fa" stroke-width="2"/>
+  <text x="90" y="84" fill="#89b4fa" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="11" font-weight="700" text-anchor="middle">:args **/*.lua</text>
+  <text x="90" y="106" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" text-anchor="middle">carga la lista</text>
+  <text x="90" y="122" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">de archivos a</text>
+  <text x="90" y="136" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">procesar</text>
+
+  <!-- Step 2 -->
+  <rect x="175" y="60" width="150" height="100" rx="8" fill="#252535" stroke="#f9e2af" stroke-width="2"/>
+  <text x="250" y="80" fill="#f9e2af" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="10" font-weight="700" text-anchor="middle">:argdo %s/old/new/g</text>
+  <text x="250" y="98" fill="#f9e2af" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="10" font-weight="700" text-anchor="middle">| update</text>
+  <text x="250" y="120" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">abre cada archivo,</text>
+  <text x="250" y="134" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">sustituye y guarda</text>
+
+  <!-- Step 3 -->
+  <rect x="340" y="60" width="140" height="100" rx="8" fill="#252535" stroke="#cba6f7" stroke-width="2"/>
+  <text x="410" y="84" fill="#cba6f7" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="11" font-weight="700" text-anchor="middle">set hidden</text>
+  <text x="410" y="106" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" text-anchor="middle">requisito previo</text>
+  <text x="410" y="122" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">evita error con</text>
+  <text x="410" y="136" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">buffers modificados</text>
+
+  <!-- Step 4 -->
+  <rect x="495" y="60" width="125" height="100" rx="8" fill="#252535" stroke="#a6e3a1" stroke-width="2"/>
+  <text x="557" y="84" fill="#a6e3a1" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="11" font-weight="700" text-anchor="middle">:first</text>
+  <text x="557" y="106" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" text-anchor="middle">verificar</text>
+  <text x="557" y="122" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">revisar cambios</text>
+  <text x="557" y="136" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">archivo por archivo</text>
+
+  <!-- arrows -->
+  <line x1="160" y1="110" x2="173" y2="110" stroke="#585b70" stroke-width="1.5" marker-end="url(#am)"/>
+  <line x1="325" y1="110" x2="338" y2="110" stroke="#585b70" stroke-width="1.5" marker-end="url(#am)"/>
+  <line x1="480" y1="110" x2="493" y2="110" stroke="#585b70" stroke-width="1.5" marker-end="url(#am)"/>
+
+  <text x="320" y="188" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" text-anchor="middle">El orden real es: set hidden (una vez) → :args → :argdo ... | update → :first</text>
+  <text x="320" y="230" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" text-anchor="middle">:argdo procesa el arglist completo en una sola pasada — la base de toda refactorización masiva</text>
+</svg>

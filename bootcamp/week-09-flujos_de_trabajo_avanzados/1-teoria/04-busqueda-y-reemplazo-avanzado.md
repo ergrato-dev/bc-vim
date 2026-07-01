@@ -55,6 +55,8 @@ Clases:
 
 ### 2. `:cdo` y `:cfdo` — Operaciones sobre Quickfix
 
+![Contraste entre :cdo (una ejecución por resultado de quickfix) y :cfdo (una ejecución por archivo, sin duplicados)](../0-assets/04-cdo-vs-cfdo.svg)
+
 ```text
 :cdo {cmd}       → ejecutar en cada entrada de quickfix
 :cfdo {cmd}      → ejecutar en cada ARCHIVO de quickfix (sin duplicados)

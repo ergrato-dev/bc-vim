@@ -53,6 +53,8 @@ Ejemplos:
 
 El comando más poderoso para procesamiento batch. Ejecuta un comando en cada archivo del arglist.
 
+![Flujo de :argdo: set hidden, cargar arglist con :args, sustituir con :argdo %s | update, y verificar con :first](../0-assets/02-argdo-flujo-batch.svg)
+
 ```text
 :argdo {comando}           → ejecutar en todos los args
 :argdo %s/old/new/g        → sustituir en todos los archivos

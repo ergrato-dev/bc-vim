@@ -15,6 +15,8 @@
 
 La location list es igual que quickfix, pero **asociada a una ventana específica**. Cada ventana puede tener su propia location list independiente.
 
+![Contraste entre quickfix (lista global compartida) y location list (una lista independiente por ventana)](../0-assets/03-quickfix-vs-location-list.svg)
+
 ```text
 ┌─────────────────────────────────────────────────┐
 │ QUICKFIX LIST (global)                          │

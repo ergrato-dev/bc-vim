@@ -15,6 +15,8 @@
 
 Es una lista global de ubicaciones (archivo + línea + columna). Vim la llena automáticamente con resultados de búsqueda, errores de compilación y más.
 
+![Fuentes que pueblan la quickfix list (vimgrep, grep, make) y comandos para navegarla (copen, cnext, cprev)](../0-assets/01-quickfix-flujo-poblar-navegar.svg)
+
 ```text
 ┌─────────────────────────────────────────────────┐
 │ QUICKFIX LIST                                    │

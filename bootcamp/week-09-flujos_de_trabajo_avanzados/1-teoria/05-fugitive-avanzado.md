@@ -49,6 +49,8 @@ p                       → reblame desde el commit anterior
 
 ### 2. Merge Conflicts con Fugitive
 
+![Diff de 3 vías en fugitive: dp (diff put, envía tu cambio) vs do (diff obtain, trae el cambio del otro lado)](../0-assets/05-merge-conflict-dp-do.svg)
+
 ```text
 Durante un merge conflictivo:
 
