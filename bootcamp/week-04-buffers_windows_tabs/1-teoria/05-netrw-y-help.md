@@ -23,6 +23,8 @@ netrw es un plugin **incluido por defecto** en Vim/Neovim que permite explorar y
 NO necesitas instalar nada. Viene con Vim desde 1998.
 ```
 
+![:Explore — netrw como panel de archivos dentro de Vim](../0-assets/05-netrw-explorer.svg)
+
 ### 2. Abrir netrw
 
 ```text

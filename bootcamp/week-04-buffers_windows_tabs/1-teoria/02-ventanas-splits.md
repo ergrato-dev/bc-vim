@@ -31,6 +31,8 @@ Una ventana es un **viewport** (vista) de un buffer. Múltiples ventanas pueden 
 
 ### 2. Crear Splits
 
+![:split (horizontal) vs :vsplit (vertical)](../0-assets/02-split-horizontal-vertical.svg)
+
 ```text
 :split [archivo]        → split horizontal (abre archivo opcional)
 :sp [archivo]           → alias de :split

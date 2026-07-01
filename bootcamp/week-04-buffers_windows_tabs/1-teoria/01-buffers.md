@@ -15,6 +15,8 @@
 
 Un buffer es la representación en memoria de un archivo. Cuando abres un archivo en Vim, estás viendo un buffer a través de una ventana.
 
+![Buffer (archivo en memoria) vs Ventana (viewport)](../0-assets/01-buffer-vs-window.svg)
+
 ```text
 ┌─────────────────────────────────────┐
 │ VIM                                  │

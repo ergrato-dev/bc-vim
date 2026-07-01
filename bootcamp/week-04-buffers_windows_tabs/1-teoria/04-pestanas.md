@@ -15,6 +15,8 @@
 
 Una pestaña (tab) en Vim **NO es un archivo**. Es una **colección de ventanas** (un layout).
 
+![Una pestaña = un layout de ventanas, no un archivo](../0-assets/04-tabs-as-workspaces.svg)
+
 ```text
 ┌─────────────────────────────────────────┐
 │ Tab 1: "Código"     Tab 2: "Tests"      │

@@ -13,6 +13,8 @@
 
 ### 1. Navegación Nativa entre Ventanas
 
+![Ctrl-w + hjkl — navegación direccional entre ventanas](../0-assets/03-ctrl-w-navigation.svg)
+
 ```text
 Ctrl-w h → izquierda    Ctrl-w j → abajo
 Ctrl-w k → arriba       Ctrl-w l → derecha
