@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="230" viewBox="0 0 640 230">
+  <rect width="640" height="230" fill="#1e1e2e"/>
+
+  <text x="320" y="26" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle">"+ (clipboard) vs "* (primary selection) — en Linux/X11 son distintos</text>
+
+  <!-- "+ clipboard row -->
+  <rect x="15" y="44" width="610" height="70" rx="5" fill="#181825" stroke="#89b4fa" stroke-width="1.5"/>
+  <text x="30" y="66" fill="#89b4fa" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="14" font-weight="700">"+</text>
+  <text x="60" y="66" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="600">CLIPBOARD</text>
+  <text x="60" y="84" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11">Se llena con Ctrl+C · se pega con Ctrl+V en cualquier app</text>
+  <text x="450" y="66" fill="#89b4fa" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12">"+yy  "+p</text>
+  <text x="450" y="84" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10">copiar / pegar explícito</text>
+
+  <!-- "* primary row -->
+  <rect x="15" y="126" width="610" height="70" rx="5" fill="#181825" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="30" y="148" fill="#f9e2af" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="14" font-weight="700">"*</text>
+  <text x="60" y="148" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="600">PRIMARY selection</text>
+  <text x="60" y="166" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11">Se llena solo AL SELECCIONAR con el ratón · se pega con botón central</text>
+  <text x="450" y="148" fill="#f9e2af" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12">"*yy  "*p</text>
+  <text x="450" y="166" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10">solo existe en Linux/X11</text>
+
+  <text x="320" y="216" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" text-anchor="middle">En Windows/macOS "+ y "* apuntan al mismo portapapeles — vim.opt.clipboard = "unnamedplus" conecta "" con "+</text>
+</svg>

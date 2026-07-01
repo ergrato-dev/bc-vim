@@ -15,6 +15,8 @@
 
 En sistemas X11 (Linux), existen dos "portapapeles":
 
+![Diagrama comparando el registro "+ (clipboard) y "* (primary selection) en Linux/X11](../0-assets/02-clipboard-vs-primary.svg)
+
 ```text
 "+  → CLIPBOARD (Ctrl+C / Ctrl+V tradicional)
 "*  → PRIMARY selection (seleccionar con ratón + botón central)

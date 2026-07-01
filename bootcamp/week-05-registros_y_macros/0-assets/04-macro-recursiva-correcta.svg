@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="250" viewBox="0 0 640 250">
+  <rect width="640" height="250" fill="#1e1e2e"/>
+
+  <text x="320" y="26" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle">Macro recursiva — @a debe ser SIEMPRE el último comando</text>
+
+  <!-- Incorrect row -->
+  <rect x="15" y="42" width="610" height="86" rx="5" fill="#181825" stroke="#f38ba8" stroke-width="1.5"/>
+  <text x="30" y="62" fill="#f38ba8" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700">✗ INCORRECTO</text>
+
+  <rect x="30" y="70" width="80" height="26" rx="3" fill="#252535" stroke="#585b70" stroke-width="1"/>
+  <text x="70" y="87" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="11" text-anchor="middle">I - Esc</text>
+
+  <rect x="118" y="70" width="70" height="26" rx="3" fill="#252535" stroke="#f38ba8" stroke-width="2"/>
+  <text x="153" y="87" fill="#f38ba8" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="11" font-weight="700" text-anchor="middle">@ a</text>
+
+  <rect x="196" y="70" width="70" height="26" rx="3" fill="#252535" stroke="#585b70" stroke-width="1" opacity="0.4"/>
+  <text x="231" y="87" fill="#585b70" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="11" text-anchor="middle">j</text>
+  <line x1="196" y1="70" x2="266" y2="96" stroke="#f38ba8" stroke-width="1.5"/>
+  <line x1="266" y1="70" x2="196" y2="96" stroke="#f38ba8" stroke-width="1.5"/>
+
+  <text x="290" y="87" fill="#f38ba8" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11">← recursión aquí: "j" NUNCA se ejecuta</text>
+  <text x="30" y="118" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10">@a se re-expande infinitamente antes de llegar al siguiente comando de la grabación</text>
+
+  <!-- Correct row -->
+  <rect x="15" y="140" width="610" height="86" rx="5" fill="#181825" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="30" y="160" fill="#a6e3a1" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700">✓ CORRECTO</text>
+
+  <rect x="30" y="168" width="80" height="26" rx="3" fill="#252535" stroke="#585b70" stroke-width="1"/>
+  <text x="70" y="185" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="11" text-anchor="middle">I - Esc</text>
+
+  <rect x="118" y="168" width="70" height="26" rx="3" fill="#252535" stroke="#89b4fa" stroke-width="1.5"/>
+  <text x="153" y="185" fill="#89b4fa" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="11" text-anchor="middle">j</text>
+
+  <rect x="196" y="168" width="70" height="26" rx="3" fill="#252535" stroke="#a6e3a1" stroke-width="2.5"/>
+  <text x="231" y="185" fill="#a6e3a1" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="11" font-weight="700" text-anchor="middle">@ a</text>
+
+  <text x="290" y="185" fill="#a6e3a1" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11">← recursión AL FINAL: avanza y se llama a sí misma</text>
+  <text x="30" y="216" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10">Se ejecuta línea por línea hasta que un comando falla (ej. j en la última línea)</text>
+
+  <text x="320" y="243" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" text-anchor="middle">La macro se detiene sola en error — eso es lo que evita un bucle infinito</text>
+</svg>

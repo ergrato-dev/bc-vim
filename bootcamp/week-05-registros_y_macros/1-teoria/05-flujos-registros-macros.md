@@ -15,6 +15,8 @@
 
 Los registros y las macros son herramientas complementarias. Juntos forman un sistema de automatización completo.
 
+![Diagrama de un pipeline de macros encadenadas: limpiar, normalizar, formatear, validar](../0-assets/05-pipeline-macros.svg)
+
 ```text
 Flujo: almacenar plantillas en registros, usarlas en macros.
 

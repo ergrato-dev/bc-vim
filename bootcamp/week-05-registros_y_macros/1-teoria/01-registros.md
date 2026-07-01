@@ -16,6 +16,8 @@
 
 Un registro es un espacio de almacenamiento nombrado donde Vim guarda texto copiado, eliminado o grabado (macros). Piensa en ellos como un portapapeles múltiple.
 
+![Diagrama mostrando cómo yiw copia a "" y "0, mientras diw solo sobrescribe "" y deja "0 intacto](../0-assets/01-yank-vs-sin-nombre.svg)
+
 ```text
 Editores normales:  1 portapapeles (Ctrl+C / Ctrl+V)
 Vim:                ~40 registros para texto + ~26 para macros

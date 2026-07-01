@@ -16,6 +16,8 @@
 
 Una macro es una secuencia de comandos Vim grabada en un registro. Permite automatizar tareas repetitivas sin programar.
 
+![Diagrama del ciclo de una macro: grabar con q, ejecutar con @, repetir con @@](../0-assets/03-grabar-ejecutar-repetir.svg)
+
 ```text
 Grabar:   q a   → inicia grabación en registro 'a'
           (ejecutas comandos Vim normalmente)

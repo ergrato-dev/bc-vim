@@ -16,6 +16,8 @@
 
 Las macros se almacenan en registros. Puedes verlas con `:reg` o pegarlas para editarlas.
 
+![Diagrama contrastando una macro recursiva incorrecta (@a antes de j) con la correcta (j antes de @a)](../0-assets/04-macro-recursiva-correcta.svg)
+
 ```text
 :reg a          → muestra el contenido del registro 'a'
 "a p            → pega el contenido en el buffer (para editarlo)
