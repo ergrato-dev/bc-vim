@@ -151,10 +151,10 @@ Implementa los comandos de usuario y el módulo `util/`.
 
 ## 📚 Recursos
 
-- [Teoría: Lua API de Neovim](../../1-teoria/01-lua-api-neovim.md)
-- [Teoría: Keymappings Avanzados](../../1-teoria/02-keymappings-avanzados.md)
-- [Teoría: Autocmds](../../1-teoria/03-autocmds.md)
-- [Teoría: Comandos de Usuario y Funciones Lua](../../1-teoria/04-comandos-y-funciones.md)
+- [Teoría: Lua API de Neovim](../1-teoria/01-lua-api-neovim.md)
+- [Teoría: Keymappings Avanzados](../1-teoria/02-keymappings-avanzados.md)
+- [Teoría: Autocmds](../1-teoria/03-autocmds.md)
+- [Teoría: Comandos de Usuario y Funciones Lua](../1-teoria/04-comandos-y-funciones.md)
 
 ---
 
