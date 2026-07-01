@@ -81,6 +81,8 @@ vim.opt.undofile = true           -- Guardar historial de undo en archivo
 
 #### `number` + `relativenumber`
 
+![Visualización de number + relativenumber en Neovim](../0-assets/05-relativenumber-display.svg)
+
 ```text
 Con number + relativenumber:
   3  function hello() {

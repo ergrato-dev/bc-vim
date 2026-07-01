@@ -131,6 +131,8 @@ También accedes con:
 
 ### 5. El Ciclo Fundamental
 
+![Diagrama de transiciones entre los 4 modos de Vim](../0-assets/01-vim-modes-diagram.svg)
+
 ```text
          ┌───────────────┐
          │               │

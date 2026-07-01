@@ -14,6 +14,8 @@
 
 ### 1. hjkl: Las Flechas de Vim
 
+![Teclas hjkl y sus direcciones de movimiento](../0-assets/02-hjkl-keys.svg)
+
 **¿Por qué hjkl y no las flechas?** Porque en el teclado original de Bill Joy (ADM-3A), las flechas estaban impresas en esas teclas. La tradición se mantuvo y resultó ser más ergonómica: no tienes que mover la mano de la fila home.
 
 ```text
@@ -45,6 +47,8 @@ Fila home del teclado:
 ---
 
 ### 2. Movimiento por Palabras
+
+![word vs WORD — diferencia de límites de palabra en Vim](../0-assets/03-word-vs-word.svg)
 
 Las "palabras" en Vim tienen dos definiciones:
 
@@ -85,6 +89,8 @@ e → Hola mundo crue|l     (fin de "cruel")
 ---
 
 ### 3. Movimiento en la Línea
+
+![Comandos de navegación en la línea: 0, ^, $](../0-assets/04-line-navigation.svg)
 
 | Comando | Acción | Nemotecnia |
 |---------|--------|------------|

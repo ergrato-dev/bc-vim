@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="200" viewBox="0 0 680 200">
+  <rect width="680" height="200" fill="#1e1e2e"/>
+
+  <!-- Title -->
+  <text x="340" y="36" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="16" font-weight="600" text-anchor="middle">Navegación en la línea — 0  ^  $</text>
+
+  <!--
+    Text: "    result = total"  (4 spaces + 14 chars = 18 chars)
+    Monospace 20px, char width ≈ 12px
+    Total: 18 * 12 = 216px
+    Center at 340: x_start = 340 - 108 = 232
+    Positions:
+      0  → x=232  (first space, col 0)
+      ^  → x=232+4*12=280  (r of 'result', first non-space)
+      $  → x=232+18*12=448  (end of line, after 'd')
+  -->
+
+  <!-- Code line -->
+  <text x="232" y="108" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="20">    result = total</text>
+
+  <!-- Marker lines + dots pointing DOWN from labels to text -->
+  <!-- 0 marker (red) -->
+  <line x1="232" y1="70" x2="232" y2="96" stroke="#f38ba8" stroke-width="1.5"/>
+  <polygon points="232,97 227,86 237,86" fill="#f38ba8"/>
+  <text x="232" y="62" fill="#f38ba8" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="16" font-weight="700" text-anchor="middle">0</text>
+
+  <!-- ^ marker (green) -->
+  <line x1="280" y1="70" x2="280" y2="96" stroke="#a6e3a1" stroke-width="1.5"/>
+  <polygon points="280,97 275,86 285,86" fill="#a6e3a1"/>
+  <text x="280" y="62" fill="#a6e3a1" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="16" font-weight="700" text-anchor="middle">^</text>
+
+  <!-- $ marker (blue) -->
+  <line x1="448" y1="70" x2="448" y2="96" stroke="#89b4fa" stroke-width="1.5"/>
+  <polygon points="448,97 443,86 453,86" fill="#89b4fa"/>
+  <text x="448" y="62" fill="#89b4fa" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="16" font-weight="700" text-anchor="middle">$</text>
+
+  <!-- Horizontal baseline for the text line -->
+  <line x1="215" y1="112" x2="465" y2="112" stroke="#313244" stroke-width="1"/>
+
+  <!-- Descriptions below -->
+  <text x="232" y="142" fill="#f38ba8" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" text-anchor="middle">columna 0</text>
+  <text x="232" y="155" fill="#f38ba8" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" text-anchor="middle">(incluso espacios)</text>
+
+  <text x="280" y="142" fill="#a6e3a1" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" text-anchor="middle">1er carácter</text>
+  <text x="280" y="155" fill="#a6e3a1" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" text-anchor="middle">no-espacio</text>
+
+  <text x="448" y="142" fill="#89b4fa" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" text-anchor="middle">fin de línea</text>
+
+  <!-- Footer -->
+  <text x="340" y="188" fill="#45475a" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" text-anchor="middle">f{char} salta al siguiente carácter en la línea — t{char} salta hasta justo antes</text>
+</svg>
