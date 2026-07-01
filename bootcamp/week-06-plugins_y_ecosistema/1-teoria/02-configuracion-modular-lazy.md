@@ -13,6 +13,8 @@
 
 ### 1. Estructura Modular Recomendada
 
+![Organización modular: lua/plugins/*.lua](../0-assets/02-estructura-modular-plugins.svg)
+
 ```text
 ~/.config/nvim/lua/plugins/
 ├── init.lua          (opcional — plugins que no encajan en categorías)

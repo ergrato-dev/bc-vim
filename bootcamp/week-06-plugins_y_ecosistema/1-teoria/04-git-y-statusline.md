@@ -15,6 +15,8 @@
 
 Muestra indicadores visuales de cambios git en la columna de signos (gutter).
 
+![gitsigns en el gutter + lualine en la statusline](../0-assets/04-gitsigns-gutter-lualine.svg)
+
 **Instalación**:
 
 ```lua

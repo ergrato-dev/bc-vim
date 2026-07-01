@@ -15,6 +15,8 @@
 
 Un plugin manager automatiza la instalación, actualización y carga de plugins. Sin uno, tendrías que clonar repositorios manualmente y gestionar dependencias a mano.
 
+![Instalar y actualizar plugins: manual vs. lazy.nvim](../0-assets/01-gestor-plugins-manual-vs-lazy.svg)
+
 ```text
 Sin gestor:
 1. git clone https://github.com/plugin/x ~/.local/share/nvim/site/pack/...

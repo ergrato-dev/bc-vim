@@ -68,6 +68,8 @@ Telescope: <leader>fh → buscar "colorscheme"
 
 Muestra una ventana emergente con los mappings disponibles cuando presionas una tecla prefijo.
 
+![which-key.nvim: descubrir mappings al presionar <leader>](../0-assets/05-which-key-popup.svg)
+
 **Instalación**:
 
 ```lua

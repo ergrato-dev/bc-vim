@@ -15,6 +15,8 @@
 
 telescope.nvim es el buscador difuso más potente para Neovim. Reemplaza Ctrl+P de VS Code, grep, búsqueda de buffers y más.
 
+![Fuzzy Finder vs. File Tree — dos formas de navegar](../0-assets/03-fuzzy-finder-vs-file-tree.svg)
+
 **Instalación**:
 
 ```lua
