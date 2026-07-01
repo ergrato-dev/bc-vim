@@ -146,11 +146,11 @@ Crea un README o captura de pantalla mostrando:
 
 ## 📚 Recursos
 
-- [Teoría: Gestores de Plugins](../../1-teoria/01-gestores-de-plugins.md)
-- [Teoría: Configuración Modular](../../1-teoria/02-configuracion-modular-lazy.md)
-- [Teoría: Fuzzy Finder y File Tree](../../1-teoria/03-fuzzy-finder-y-file-tree.md)
-- [Teoría: Git y Statusline](../../1-teoria/04-git-y-statusline.md)
-- [Teoría: Temas y Optimización](../../1-teoria/05-temas-y-optimizacion.md)
+- [Teoría: Gestores de Plugins](../1-teoria/01-gestores-de-plugins.md)
+- [Teoría: Configuración Modular](../1-teoria/02-configuracion-modular-lazy.md)
+- [Teoría: Fuzzy Finder y File Tree](../1-teoria/03-fuzzy-finder-y-file-tree.md)
+- [Teoría: Git y Statusline](../1-teoria/04-git-y-statusline.md)
+- [Teoría: Temas y Optimización](../1-teoria/05-temas-y-optimizacion.md)
 
 ---
 
