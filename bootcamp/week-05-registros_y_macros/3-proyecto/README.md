@@ -189,9 +189,9 @@ Crea `macros-usadas.md`:
 
 ## 📚 Recursos
 
-- [Teoría: Registros](../../1-teoria/01-registros.md)
-- [Teoría: Macros - Grabación y Ejecución](../../1-teoria/03-macros-grabacion.md)
-- [Teoría: Macros - Edición y Batch](../../1-teoria/04-macros-edicion-batch.md)
+- [Teoría: Registros](../1-teoria/01-registros.md)
+- [Teoría: Macros - Grabación y Ejecución](../1-teoria/03-macros-grabacion.md)
+- [Teoría: Macros - Edición y Batch](../1-teoria/04-macros-edicion-batch.md)
 
 ---
 
