@@ -178,7 +178,7 @@ En los comentarios de tu init.lua, explica brevemente qué hace cada sección. N
 
 - [Neovim Options Reference](https://neovim.io/doc/user/options.html)
 - [Lua Guide for Neovim](https://neovim.io/doc/user/lua-guide.html)
-- [Ejemplo de la teoría: Configuración Inicial](../../1-teoria/05-configuracion-inicial.md)
+- [Ejemplo de la teoría: Configuración Inicial](../1-teoria/05-configuracion-inicial.md)
 
 ---
 

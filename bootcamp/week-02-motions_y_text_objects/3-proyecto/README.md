@@ -199,8 +199,8 @@ Si no tienes Python, verifica visualmente:
 ## 📚 Recursos
 
 - [TOML Specification](https://toml.io)
-- [Teoría: Text Objects](../../1-teoria/04-text-objects.md)
-- [Teoría: Vim como Lenguaje](../../1-teoria/05-vim-como-lenguaje.md)
+- [Teoría: Text Objects](../1-teoria/04-text-objects.md)
+- [Teoría: Vim como Lenguaje](../1-teoria/05-vim-como-lenguaje.md)
 
 ---
 

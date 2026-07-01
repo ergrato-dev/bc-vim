@@ -236,9 +236,9 @@ Crea `~/proyecto-semana03-flujo.md`:
 
 ## 📚 Recursos
 
-- [Teoría: Visual Mode](../../1-teoria/02-visual-mode.md)
-- [Teoría: Sustituciones](../../1-teoria/04-sustituciones.md)
-- [Teoría: Comandos Shell](../../1-teoria/05-comandos-shell-y-filtros.md)
+- [Teoría: Visual Mode](../1-teoria/02-visual-mode.md)
+- [Teoría: Sustituciones](../1-teoria/04-sustituciones.md)
+- [Teoría: Comandos Shell](../1-teoria/05-comandos-shell-y-filtros.md)
 - [Markdown Guide](https://www.markdownguide.org/basic-syntax/#tables)
 
 ---
