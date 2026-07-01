@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <rect width="1200" height="300" fill="#1e1e2e"/>
+
+  <!-- ── Terminal window mockup (left) ───────────────────────── -->
+  <rect x="40" y="46" width="620" height="208" rx="10" fill="#181825" stroke="#313244" stroke-width="1.5"/>
+
+  <!-- title bar -->
+  <rect x="41.5" y="47.5" width="617" height="30" rx="8" fill="#11111b"/>
+  <circle cx="60" cy="62" r="5" fill="#f38ba8"/>
+  <circle cx="78" cy="62" r="5" fill="#f9e2af"/>
+  <circle cx="96" cy="62" r="5" fill="#a6e3a1"/>
+  <text x="118" y="66" fill="#6c7086" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="11">init.lua</text>
+
+  <rect x="558" y="55" width="86" height="18" rx="4" fill="#89b4fa" opacity="0.15" stroke="#89b4fa" stroke-width="1"/>
+  <text x="601" y="68" fill="#89b4fa" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" text-anchor="middle">NORMAL</text>
+
+  <!-- code body -->
+  <text x="60" y="104" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="14">
+    <tspan fill="#cba6f7">require</tspan><tspan fill="#cdd6f4">(</tspan><tspan fill="#a6e3a1">"lazy"</tspan><tspan fill="#cdd6f4">).setup({</tspan>
+  </text>
+  <text x="76" y="128" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="14">
+    <tspan fill="#cdd6f4">{ </tspan><tspan fill="#a6e3a1">"folke/which-key.nvim"</tspan><tspan fill="#cdd6f4"> },</tspan>
+  </text>
+  <text x="60" y="152" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="14">})</text>
+
+  <text x="60" y="182" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="14">
+    <tspan fill="#585b70">-- </tspan><tspan fill="#6c7086">&lt;leader&gt;ff busca archivos</tspan>
+  </text>
+  <text x="60" y="204" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="14">
+    <tspan fill="#89b4fa">vim</tspan><tspan fill="#cdd6f4">.keymap.</tspan><tspan fill="#f9e2af">set</tspan><tspan fill="#cdd6f4">(</tspan><tspan fill="#a6e3a1">"n"</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#a6e3a1">"gd"</tspan><tspan fill="#cdd6f4">, ...)</tspan>
+  </text>
+
+  <!-- block cursor at start of line (position-safe across font fallbacks) -->
+  <rect x="60" y="216" width="9" height="17" fill="#f9e2af" opacity="0.85"/>
+  <text x="60" y="228" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="14">
+    <tspan fill="#181825">e</tspan><tspan fill="#585b70">nd)</tspan>
+  </text>
+
+  <!-- hjkl directional keypad -->
+  <rect x="590" y="188" width="22" height="22" rx="4" fill="#252535" stroke="#45475a" stroke-width="1"/>
+  <text x="601" y="203" fill="#a6e3a1" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12" font-weight="700" text-anchor="middle">k</text>
+
+  <rect x="566" y="212" width="22" height="22" rx="4" fill="#252535" stroke="#45475a" stroke-width="1"/>
+  <text x="577" y="227" fill="#a6e3a1" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12" font-weight="700" text-anchor="middle">h</text>
+
+  <rect x="590" y="212" width="22" height="22" rx="4" fill="#252535" stroke="#45475a" stroke-width="1"/>
+  <text x="601" y="227" fill="#a6e3a1" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12" font-weight="700" text-anchor="middle">j</text>
+
+  <rect x="614" y="212" width="22" height="22" rx="4" fill="#252535" stroke="#45475a" stroke-width="1"/>
+  <text x="625" y="227" fill="#a6e3a1" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12" font-weight="700" text-anchor="middle">l</text>
+
+  <!-- ── Title block (right) ─────────────────────────────────── -->
+  <text x="930" y="140" fill="#019733" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="88" font-weight="800" text-anchor="middle">VIM</text>
+  <text x="930" y="178" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="27" font-weight="700" text-anchor="middle">ZERO TO HERO</text>
+
+  <line x1="850" y1="196" x2="1010" y2="196" stroke="#313244" stroke-width="1.5"/>
+
+  <text x="930" y="220" fill="#9399b2" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" text-anchor="middle">10 semanas · 80 horas · Neovim + Lua</text>
+
+  <text x="1150" y="248" fill="#585b70" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12" text-anchor="end">:wq</text>
+
+  <!-- brand stripe -->
+  <rect x="0" y="294" width="400" height="6" fill="#019733"/>
+  <rect x="400" y="294" width="400" height="6" fill="#57A143"/>
+  <rect x="800" y="294" width="400" height="6" fill="#89b4fa"/>
+</svg>
