@@ -92,10 +92,10 @@ Tarea: Renombrar "NUEVO" → "COMPLETADO" en archivos de teoría
 
 ## 📚 Recursos
 
-- [Teoría: Quickfix y grep](../../1-teoria/01-quickfix-y-grep.md)
-- [Teoría: Arglist y Batch](../../1-teoria/02-arglist-y-batch.md)
-- [Teoría: Búsqueda y Reemplazo Avanzados](../../1-teoria/04-busqueda-y-reemplazo-avanzado.md)
-- [Teoría: Fugitive Avanzado](../../1-teoria/05-fugitive-avanzado.md)
+- [Teoría: Quickfix y grep](../1-teoria/01-quickfix-y-grep.md)
+- [Teoría: Arglist y Batch](../1-teoria/02-arglist-y-batch.md)
+- [Teoría: Búsqueda y Reemplazo Avanzados](../1-teoria/04-busqueda-y-reemplazo-avanzado.md)
+- [Teoría: Fugitive Avanzado](../1-teoria/05-fugitive-avanzado.md)
 
 ---
 
