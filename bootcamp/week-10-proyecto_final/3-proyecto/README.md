@@ -79,11 +79,11 @@ Este es el proyecto integrador final del bootcamp. Construirás, documentarás y
 
 ## 📚 Recursos
 
-- [Teoría: Planificación Final](../../1-teoria/01-planificacion-configuracion.md)
-- [Teoría: Publicación en GitHub](../../1-teoria/02-publicacion-dotfiles.md)
-- [Teoría: Documentación y Presentación](../../1-teoria/03-documentacion-y-presentacion.md)
-- [Teoría: Demo — Flujo Completo](../../1-teoria/04-flujo-demostracion.md)
-- [Teoría: Comunidad y Próximos Pasos](../../1-teoria/05-comunidad-y-recursos-finales.md)
+- [Teoría: Planificación Final](../1-teoria/01-planificacion-configuracion.md)
+- [Teoría: Publicación en GitHub](../1-teoria/02-publicacion-dotfiles.md)
+- [Teoría: Documentación y Presentación](../1-teoria/03-documentacion-y-presentacion.md)
+- [Teoría: Demo — Flujo Completo](../1-teoria/04-flujo-demostracion.md)
+- [Teoría: Comunidad y Próximos Pasos](../1-teoria/05-comunidad-y-recursos-finales.md)
 
 ---
 
