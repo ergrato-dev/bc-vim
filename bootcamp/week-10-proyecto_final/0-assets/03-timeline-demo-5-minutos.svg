@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="220" viewBox="0 0 640 220">
+  <rect width="640" height="220" fill="#1e1e2e"/>
+
+  <text x="320" y="24" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle">Línea de Tiempo — Demo en Vivo (3-5 min)</text>
+
+  <!-- main timeline -->
+  <line x1="30" y1="140" x2="610" y2="140" stroke="#313244" stroke-width="3"/>
+
+  <!-- Point 1: Apertura (above) -->
+  <circle cx="30" cy="140" r="6" fill="#89b4fa"/>
+  <line x1="30" y1="134" x2="30" y2="112" stroke="#89b4fa" stroke-width="1.5"/>
+  <text x="30" y="100" fill="#89b4fa" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" text-anchor="middle">Apertura</text>
+  <text x="30" y="88" fill="#585b70" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="8.5" text-anchor="middle">0:00-0:30</text>
+
+  <!-- Point 2: Navegación y Edición (below) -->
+  <circle cx="147" cy="140" r="6" fill="#cba6f7"/>
+  <line x1="147" y1="146" x2="147" y2="168" stroke="#cba6f7" stroke-width="1.5"/>
+  <text x="147" y="182" fill="#cba6f7" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" text-anchor="middle">Navegación</text>
+  <text x="147" y="194" fill="#cba6f7" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" text-anchor="middle">y Edición</text>
+  <text x="147" y="207" fill="#585b70" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="8.5" text-anchor="middle">0:30-1:30</text>
+
+  <!-- Point 3: LSP e Inteligencia (above) -->
+  <circle cx="264" cy="140" r="6" fill="#f9e2af"/>
+  <line x1="264" y1="134" x2="264" y2="112" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="264" y="100" fill="#f9e2af" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" text-anchor="middle">LSP e</text>
+  <text x="264" y="88" fill="#f9e2af" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" text-anchor="middle">Inteligencia</text>
+  <text x="264" y="76" fill="#585b70" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="8.5" text-anchor="middle">1:30-2:30</text>
+
+  <!-- Point 4: Git y Herramientas (below) -->
+  <circle cx="381" cy="140" r="6" fill="#a6e3a1"/>
+  <line x1="381" y1="146" x2="381" y2="168" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="381" y="182" fill="#a6e3a1" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" text-anchor="middle">Git y</text>
+  <text x="381" y="194" fill="#a6e3a1" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" text-anchor="middle">Herramientas</text>
+  <text x="381" y="207" fill="#585b70" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="8.5" text-anchor="middle">2:30-3:30</text>
+
+  <!-- Point 5: Flujo Completo (above) -->
+  <circle cx="498" cy="140" r="6" fill="#f38ba8"/>
+  <line x1="498" y1="134" x2="498" y2="112" stroke="#f38ba8" stroke-width="1.5"/>
+  <text x="498" y="100" fill="#f38ba8" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" text-anchor="middle">Flujo</text>
+  <text x="498" y="88" fill="#f38ba8" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" text-anchor="middle">Completo</text>
+  <text x="498" y="76" fill="#585b70" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="8.5" text-anchor="middle">3:30-4:30</text>
+
+  <!-- Point 6: Cierre (below) -->
+  <circle cx="610" cy="140" r="6" fill="#89b4fa"/>
+  <line x1="610" y1="146" x2="610" y2="168" stroke="#89b4fa" stroke-width="1.5"/>
+  <text x="610" y="182" fill="#89b4fa" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" text-anchor="middle">Cierre</text>
+  <text x="610" y="194" fill="#585b70" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="8.5" text-anchor="middle">4:30-5:00</text>
+
+  <text x="320" y="214" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" text-anchor="middle">Cada bloque tiene un tiempo fijo — practicar el guion evita silencios e improvisación</text>
+</svg>

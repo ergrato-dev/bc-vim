@@ -184,6 +184,8 @@ Crear un plugin:
 
 ### 7. El Viaje Continúa
 
+![Línea de tiempo del viaje de aprendizaje Vim desde la semana 1 hasta el futuro post-bootcamp](../0-assets/05-viaje-continua-roadmap.svg)
+
 ```text
 ┌─────────────────────────────────────────────────────────┐
 │                                                          │

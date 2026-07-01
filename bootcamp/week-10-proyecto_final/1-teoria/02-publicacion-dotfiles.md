@@ -183,6 +183,8 @@ mkdir -p ~/.config/nvim/screenshots
 
 ### 4. Publicar en GitHub
 
+![Diagrama de flujo para publicar dotfiles en GitHub: crear repositorio, conectar remoto, hacer push y verificar en el navegador](../0-assets/02-flujo-publicacion-github.svg)
+
 ```bash
 # 1. Crear repo en GitHub (con UI o gh CLI)
 gh repo create nvim --public --description "Mi configuración de Neovim"

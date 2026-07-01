@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="220" viewBox="0 0 640 220">
+  <rect width="640" height="220" fill="#1e1e2e"/>
+
+  <text x="320" y="24" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle">El Viaje Continúa — De la Semana 1 al Futuro</text>
+
+  <!-- main roadmap line -->
+  <line x1="30" y1="140" x2="610" y2="140" stroke="#313244" stroke-width="3"/>
+
+  <!-- Point 1: Semana 1 (above) -->
+  <circle cx="30" cy="140" r="6" fill="#89b4fa"/>
+  <line x1="30" y1="134" x2="30" y2="112" stroke="#89b4fa" stroke-width="1.5"/>
+  <text x="30" y="100" fill="#89b4fa" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" text-anchor="middle">Semana 1</text>
+  <text x="30" y="86" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="8.5" text-anchor="middle">¿Cómo salgo</text>
+  <text x="30" y="76" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="8.5" text-anchor="middle">de Vim?</text>
+
+  <!-- Point 2: Semana 5 (below) -->
+  <circle cx="175" cy="140" r="6" fill="#cba6f7"/>
+  <line x1="175" y1="146" x2="175" y2="168" stroke="#cba6f7" stroke-width="1.5"/>
+  <text x="175" y="182" fill="#cba6f7" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" text-anchor="middle">Semana 5</text>
+  <text x="175" y="196" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="8.5" text-anchor="middle">Automaticé con</text>
+  <text x="175" y="207" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="8.5" text-anchor="middle">una macro</text>
+
+  <!-- Point 3: Semana 8 (above) -->
+  <circle cx="320" cy="140" r="6" fill="#f9e2af"/>
+  <line x1="320" y1="134" x2="320" y2="112" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="320" y="100" fill="#f9e2af" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" text-anchor="middle">Semana 8</text>
+  <text x="320" y="86" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="8.5" text-anchor="middle">Mi editor es</text>
+  <text x="320" y="76" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="8.5" text-anchor="middle">un IDE completo</text>
+
+  <!-- Point 4: Semana 10 (below) -->
+  <circle cx="465" cy="140" r="6" fill="#a6e3a1"/>
+  <line x1="465" y1="146" x2="465" y2="168" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="465" y="182" fill="#a6e3a1" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600" text-anchor="middle">Semana 10</text>
+  <text x="465" y="196" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="8.5" text-anchor="middle">Publiqué en</text>
+  <text x="465" y="207" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="8.5" text-anchor="middle">GitHub</text>
+
+  <!-- Point 5: Futuro (above, highlighted) -->
+  <circle cx="610" cy="140" r="7" fill="#f38ba8"/>
+  <line x1="610" y1="133" x2="610" y2="112" stroke="#f38ba8" stroke-width="1.5"/>
+  <text x="610" y="100" fill="#f38ba8" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Futuro</text>
+  <text x="610" y="86" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="8.5" text-anchor="middle">tu propio</text>
+  <text x="610" y="76" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="8.5" text-anchor="middle">plugin</text>
+
+  <text x="320" y="214" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" text-anchor="middle">Vim es un viaje, no un destino — la configuración sigue evolucionando después del bootcamp</text>
+</svg>

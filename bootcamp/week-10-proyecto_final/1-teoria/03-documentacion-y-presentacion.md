@@ -57,6 +57,8 @@
 
 **Estructura de la demo**:
 
+![Línea de tiempo de la demo en vivo de 5 minutos dividida en 6 segmentos: apertura, navegación y edición, LSP, git, flujo completo y cierre](../0-assets/03-timeline-demo-5-minutos.svg)
+
 ```text
 [0:00-0:30] APERTURA
   - Mostrar Neovim abriendo con tu configuración

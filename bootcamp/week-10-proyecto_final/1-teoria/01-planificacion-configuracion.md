@@ -59,6 +59,8 @@ Semana 10:     Integración final + publicación
 
 Implementa tu configuración por capas, verificando cada una antes de pasar a la siguiente:
 
+![Diagrama de las 7 capas de implementación de la configuración final, de la base (init.lua) hasta la documentación publicable](../0-assets/01-plan-por-capas.svg)
+
 ```text
 CAPA 1 — Base (30 min)
 ├── init.lua con require("config.lazy")

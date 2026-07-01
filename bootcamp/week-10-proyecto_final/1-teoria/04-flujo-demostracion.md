@@ -14,6 +14,8 @@
 
 Usa este script como base. Adáptalo a tu configuración y lenguaje favorito.
 
+![Diagrama del flujo completo demostrado: editar con autocompletado, diagnosticar con LSP, navegar con gd/gr y confirmar con git](../0-assets/04-flujo-completo-demo.svg)
+
 ```text
 ═══════════════════════════════════════════════════════════
 DEMO: Configuración de Neovim — [Tu Nombre]

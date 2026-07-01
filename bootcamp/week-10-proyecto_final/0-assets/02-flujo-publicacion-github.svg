@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240">
+  <rect width="640" height="240" fill="#1e1e2e"/>
+
+  <defs>
+    <marker id="gm" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0,8 3,0 6" fill="#585b70"/>
+    </marker>
+  </defs>
+
+  <text x="320" y="26" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle">Publicar los dotfiles en GitHub</text>
+
+  <!-- Step 1 -->
+  <rect x="20" y="60" width="140" height="100" rx="8" fill="#252535" stroke="#89b4fa" stroke-width="2"/>
+  <text x="90" y="84" fill="#89b4fa" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="10.5" font-weight="700" text-anchor="middle">gh repo create</text>
+  <text x="90" y="106" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" text-anchor="middle">crear repositorio</text>
+  <text x="90" y="122" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">público, con</text>
+  <text x="90" y="136" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">descripción</text>
+
+  <!-- Step 2 -->
+  <rect x="175" y="60" width="150" height="100" rx="8" fill="#252535" stroke="#f9e2af" stroke-width="2"/>
+  <text x="250" y="84" fill="#f9e2af" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="9.5" font-weight="700" text-anchor="middle">git remote add origin</text>
+  <text x="250" y="106" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" text-anchor="middle">conectar remoto</text>
+  <text x="250" y="122" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">enlaza el repo local</text>
+  <text x="250" y="136" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">con GitHub</text>
+
+  <!-- Step 3 -->
+  <rect x="340" y="60" width="150" height="100" rx="8" fill="#252535" stroke="#cba6f7" stroke-width="2"/>
+  <text x="415" y="84" fill="#cba6f7" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="9.5" font-weight="700" text-anchor="middle">git push -u origin</text>
+  <text x="415" y="100" fill="#cba6f7" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="9.5" font-weight="700" text-anchor="middle">main</text>
+  <text x="415" y="120" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" text-anchor="middle">subir commits</text>
+  <text x="415" y="136" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">historial completo</text>
+
+  <!-- Step 4 -->
+  <rect x="505" y="60" width="115" height="100" rx="8" fill="#252535" stroke="#a6e3a1" stroke-width="2"/>
+  <text x="562" y="84" fill="#a6e3a1" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="9.5" font-weight="700" text-anchor="middle">gh repo view</text>
+  <text x="562" y="100" fill="#a6e3a1" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="9.5" font-weight="700" text-anchor="middle">--web</text>
+  <text x="562" y="120" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" text-anchor="middle">verificar</text>
+  <text x="562" y="136" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">en el navegador</text>
+
+  <!-- arrows -->
+  <line x1="160" y1="110" x2="173" y2="110" stroke="#585b70" stroke-width="1.5" marker-end="url(#gm)"/>
+  <line x1="325" y1="110" x2="338" y2="110" stroke="#585b70" stroke-width="1.5" marker-end="url(#gm)"/>
+  <line x1="490" y1="110" x2="503" y2="110" stroke="#585b70" stroke-width="1.5" marker-end="url(#gm)"/>
+
+  <text x="320" y="188" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" text-anchor="middle">Antes: README con features, instalación, estructura y screenshots ya commiteado</text>
+  <text x="320" y="230" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" text-anchor="middle">Publicar no es el final — es compartir la configuración para que otros la instalen y aprendan de ella</text>
+</svg>

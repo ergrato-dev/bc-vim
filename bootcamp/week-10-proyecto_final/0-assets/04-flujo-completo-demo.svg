@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240">
+  <rect width="640" height="240" fill="#1e1e2e"/>
+
+  <defs>
+    <marker id="fm" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0,8 3,0 6" fill="#585b70"/>
+    </marker>
+  </defs>
+
+  <text x="320" y="26" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle">Script de Demo — El Flujo Completo en Acción</text>
+
+  <!-- Step 1: Editar -->
+  <rect x="20" y="60" width="140" height="100" rx="8" fill="#252535" stroke="#89b4fa" stroke-width="2"/>
+  <text x="90" y="84" fill="#89b4fa" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">Editar</text>
+  <text x="90" y="104" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="9.5" text-anchor="middle">Ctrl-Space</text>
+  <text x="90" y="122" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">autocompletado +</text>
+  <text x="90" y="136" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">error a propósito</text>
+
+  <!-- Step 2: Diagnosticar -->
+  <rect x="175" y="60" width="150" height="100" rx="8" fill="#252535" stroke="#f9e2af" stroke-width="2"/>
+  <text x="250" y="84" fill="#f9e2af" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">Diagnosticar</text>
+  <text x="250" y="104" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="9.5" text-anchor="middle">]d · K · ciw</text>
+  <text x="250" y="122" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">LSP marca el error,</text>
+  <text x="250" y="136" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">hover y corrección</text>
+
+  <!-- Step 3: Navegar -->
+  <rect x="340" y="60" width="140" height="100" rx="8" fill="#252535" stroke="#cba6f7" stroke-width="2"/>
+  <text x="410" y="84" fill="#cba6f7" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">Navegar</text>
+  <text x="410" y="104" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="9.5" text-anchor="middle">gd · gr · Ctrl-o</text>
+  <text x="410" y="122" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">saltar a definición</text>
+  <text x="410" y="136" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">y volver</text>
+
+  <!-- Step 4: Git -->
+  <rect x="495" y="60" width="125" height="100" rx="8" fill="#252535" stroke="#a6e3a1" stroke-width="2"/>
+  <text x="557" y="84" fill="#a6e3a1" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">Git</text>
+  <text x="557" y="104" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="9.5" text-anchor="middle">:Gstatus</text>
+  <text x="557" y="122" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">stage (-) y</text>
+  <text x="557" y="136" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" text-anchor="middle">commit (cc)</text>
+
+  <!-- arrows -->
+  <line x1="160" y1="110" x2="173" y2="110" stroke="#585b70" stroke-width="1.5" marker-end="url(#fm)"/>
+  <line x1="325" y1="110" x2="338" y2="110" stroke="#585b70" stroke-width="1.5" marker-end="url(#fm)"/>
+  <line x1="480" y1="110" x2="493" y2="110" stroke="#585b70" stroke-width="1.5" marker-end="url(#fm)"/>
+
+  <text x="320" y="188" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" text-anchor="middle">gitsigns muestra el gutter durante todo el flujo · which-key cierra con &lt;leader&gt;</text>
+  <text x="320" y="230" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" text-anchor="middle">Editar → diagnosticar → navegar → git: el ciclo que resume todo lo aprendido en el bootcamp</text>
+</svg>
