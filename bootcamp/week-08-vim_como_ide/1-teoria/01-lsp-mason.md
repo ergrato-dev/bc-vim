@@ -15,6 +15,8 @@
 
 **Language Server Protocol** es un estándar creado por Microsoft que separa el editor del análisis de código. El editor (cliente LSP) se comunica con un servidor externo que entiende el lenguaje.
 
+![Arquitectura cliente-servidor de LSP: Neovim como cliente y el language server como proceso externo](../0-assets/01-lsp-arquitectura-cliente-servidor.svg)
+
 ```text
 ┌──────────────┐         ┌──────────────────┐
 │ Neovim       │  LSP    │ Language Server  │

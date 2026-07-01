@@ -15,6 +15,8 @@
 
 nvim-cmp es el motor de autocompletado para Neovim. Es extensible: puedes conectar múltiples "fuentes" que proveen sugerencias.
 
+![nvim-cmp como motor central que combina sugerencias de varias fuentes: LSP, buffer, path y snippets](../0-assets/02-nvim-cmp-fuentes.svg)
+
 ```text
 ┌──────────────────────────────────────┐
 │ nvim-cmp (motor)                     │

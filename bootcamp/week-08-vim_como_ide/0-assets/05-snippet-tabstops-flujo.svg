@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240">
+  <rect width="640" height="240" fill="#1e1e2e"/>
+
+  <defs>
+    <marker id="sm" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0,8 3,0 6" fill="#f9e2af"/>
+    </marker>
+  </defs>
+
+  <text x="320" y="26" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle">LuaSnip: expandir un snippet y navegar tabstops</text>
+
+  <!-- snippet definition -->
+  <rect x="30" y="44" width="580" height="50" rx="6" fill="#181825" stroke="#313244" stroke-width="1.5"/>
+  <text x="46" y="64" fill="#cba6f7" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="10.5">s("func", { t("function "), i(1,"name"), t("("), i(2,"args"), t(")"), i(0) })</text>
+  <text x="46" y="82" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5">trigger "func" + Tab expande la plantilla</text>
+
+  <!-- tabstop 1 -->
+  <rect x="30" y="120" width="170" height="66" rx="8" fill="#252535" stroke="#89b4fa" stroke-width="2"/>
+  <text x="115" y="144" fill="#89b4fa" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12" font-weight="700" text-anchor="middle">i(1, "name")</text>
+  <text x="115" y="164" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" text-anchor="middle">cursor aquí primero</text>
+
+  <!-- tabstop 2 -->
+  <rect x="235" y="120" width="170" height="66" rx="8" fill="#252535" stroke="#a6e3a1" stroke-width="2"/>
+  <text x="320" y="144" fill="#a6e3a1" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12" font-weight="700" text-anchor="middle">i(2, "args")</text>
+  <text x="320" y="164" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" text-anchor="middle">Tab salta aquí</text>
+
+  <!-- tabstop 0 -->
+  <rect x="440" y="120" width="170" height="66" rx="8" fill="#252535" stroke="#f9e2af" stroke-width="2"/>
+  <text x="525" y="144" fill="#f9e2af" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12" font-weight="700" text-anchor="middle">i(0)</text>
+  <text x="525" y="164" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" text-anchor="middle">tabstop final</text>
+
+  <!-- arrows -->
+  <line x1="200" y1="153" x2="233" y2="153" stroke="#f9e2af" stroke-width="1.5" marker-end="url(#sm)"/>
+  <text x="217" y="146" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" text-anchor="middle">Tab</text>
+  <line x1="405" y1="153" x2="438" y2="153" stroke="#f9e2af" stroke-width="1.5" marker-end="url(#sm)"/>
+  <text x="422" y="146" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" text-anchor="middle">Tab</text>
+
+  <text x="320" y="215" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" text-anchor="middle">Tab avanza al siguiente tabstop, S-Tab retrocede; i(0) marca dónde queda el cursor al terminar</text>
+</svg>

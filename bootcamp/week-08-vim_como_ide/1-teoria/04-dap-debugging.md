@@ -152,6 +152,8 @@ end, { desc = "Preview (hover)" })
 
 ### 4. Flujo de Debugging
 
+![Flujo de debugging con nvim-dap: breakpoint, continue, step over/into/out e inspección en DAP UI](../0-assets/04-flujo-debugging-dap.svg)
+
 ```text
 1. Poner breakpoint: <leader>db sobre una línea
 2. Iniciar debug: <leader>dc (DAP Continue)

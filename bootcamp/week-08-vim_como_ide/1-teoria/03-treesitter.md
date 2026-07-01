@@ -13,6 +13,8 @@
 
 ### 1. Regex vs Treesitter
 
+![Comparación entre resaltado por regex y resaltado semántico basado en el AST de Treesitter](../0-assets/03-regex-vs-treesitter.svg)
+
 ```text
 Regex highlighting (tradicional):
   ┌─────────────────────────────────┐

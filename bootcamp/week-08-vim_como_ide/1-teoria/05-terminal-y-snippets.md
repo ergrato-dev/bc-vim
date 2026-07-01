@@ -168,6 +168,8 @@ return {
 
 ### 5. Sintaxis de Snippets
 
+![Expansión de un snippet en LuaSnip: navegación de tabstops con Tab hasta el tabstop final](../0-assets/05-snippet-tabstops-flujo.svg)
+
 ```text
 t("texto")        → texto literal
 i({n}, "placeholder") → tabstop con placeholder
