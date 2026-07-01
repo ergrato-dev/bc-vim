@@ -30,6 +30,8 @@ Línea: "foo bar foo baz foo"
 :s/foo/XXX/g    → "XXX bar XXX baz XXX"   (todas en la línea)
 ```
 
+![:s alcanza 1 línea — :%s alcanza TODO el archivo](../0-assets/04-s-vs-percent-s.svg)
+
 ---
 
 ### 2. Rangos de Líneas

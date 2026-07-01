@@ -78,6 +78,8 @@ El operador `!` pasa texto a través de un comando externo y reemplaza el texto 
 :{rango}!{comando}   → filtra las líneas del rango por el comando
 ```
 
+![! (filter) — el texto pasa por un comando externo y vuelve reemplazado](../0-assets/05-filter-operator.svg)
+
 ```text
 Ejemplos con el operador !:
 

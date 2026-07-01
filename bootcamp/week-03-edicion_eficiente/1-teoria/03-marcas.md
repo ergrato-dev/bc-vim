@@ -16,6 +16,8 @@
 
 Una **marca** (mark) es una posición guardada en un archivo. Piensa en ellas como bookmarks o favoritos del teclado.
 
+![ma → moverse → `a — marca vs posición exacta vs inicio de línea](../0-assets/03-marks-jump.svg)
+
 ```text
 m{letra}     → crea una marca en la posición actual
 `{letra}     → salta a la posición exacta (línea + columna) de la marca

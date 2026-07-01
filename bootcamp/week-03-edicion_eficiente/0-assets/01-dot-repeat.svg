@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="260" viewBox="0 0 640 260">
+  <rect width="640" height="260" fill="#1e1e2e"/>
+
+  <text x="320" y="28" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle">`.` repite el último CAMBIO, no el último movimiento</text>
+
+  <!-- Step 1: original change -->
+  <rect x="15" y="44" width="610" height="60" rx="5" fill="#181825" stroke="#313244" stroke-width="1"/>
+  <text x="30" y="64" fill="#89b4fa" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="13" font-weight="700">ciw admin Esc</text>
+  <text x="30" y="90" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="14">const role = <tspan fill="#f38ba8" text-decoration="line-through">user</tspan> <tspan fill="#a6e3a1">admin</tspan></text>
+  <text x="605" y="90" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" text-anchor="end">cambio #1 (se graba)</text>
+
+  <!-- arrow down -->
+  <line x1="320" y1="106" x2="320" y2="126" stroke="#f9e2af" stroke-width="1.5" marker-end="url(#a1)"/>
+  <text x="335" y="120" fill="#f9e2af" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12">j / n</text>
+
+  <!-- Step 2: move only -->
+  <rect x="15" y="132" width="610" height="46" rx="5" fill="#181825" stroke="#313244" stroke-width="1"/>
+  <text x="30" y="160" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="14">const role = user   <tspan fill="#585b70">// cursor se mueve, NO cuenta como cambio</tspan></text>
+
+  <!-- arrow down -->
+  <line x1="320" y1="180" x2="320" y2="200" stroke="#f9e2af" stroke-width="1.5" marker-end="url(#a1)"/>
+  <text x="340" y="194" fill="#f9e2af" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12">.</text>
+
+  <!-- Step 3: repeat -->
+  <rect x="15" y="206" width="610" height="46" rx="5" fill="#181825" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="30" y="234" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="14">const role = <tspan fill="#f38ba8" text-decoration="line-through">user</tspan> <tspan fill="#a6e3a1">admin</tspan>   <tspan fill="#a6e3a1">← `.` reaplica "ciw admin Esc" aquí</tspan></text>
+
+  <defs>
+    <marker id="a1" markerWidth="6" markerHeight="6" refX="3" refY="6" orient="auto">
+      <polygon points="0,6 3,0 6,6" fill="#f9e2af"/>
+    </marker>
+  </defs>
+</svg>

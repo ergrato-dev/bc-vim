@@ -15,6 +15,8 @@
 
 El punto (`.`) repite el **último cambio** que modificó el buffer. No es el último comando — es el último **cambio**.
 
+![`.` repite el último cambio, no el último movimiento](../0-assets/01-dot-repeat.svg)
+
 ```text
 Qué REPITE '.':
 - c i w hola Esc        → cambió palabra por "hola"

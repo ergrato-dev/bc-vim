@@ -13,6 +13,8 @@
 
 ### 1. Los 3 Tipos de Visual Mode
 
+![v / V / Ctrl-v — qué selecciona cada Visual mode](../0-assets/02-visual-mode-types.svg)
+
 ```text
 ┌──────────────────────────────────────────────────┐
 │ VISUAL MODE                                       │
