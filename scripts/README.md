@@ -8,6 +8,7 @@ Scripts para automatizar tareas del repositorio del bootcamp.
 |---------|-------------|
 | `autocommit.sh` | Script principal de auto-commit |
 | `install-autocommit.sh` | Instalador del timer systemd (Fedora) |
+| `export-pdf.sh` | Exporta los README del bootcamp a PDF usando pandoc |
 | `logs/` | Directorio de logs (auto-generado) |
 
 ## 🚀 Instalación (Fedora 43)
@@ -91,3 +92,33 @@ Los logs se guardan en `scripts/logs/autocommit.log` y se rotan automáticamente
 # Ver logs
 tail -f scripts/logs/autocommit.log
 ```
+
+---
+
+## 📄 Exportar a PDF (`export-pdf.sh`)
+
+Exporta el README principal y los READMEs de cada semana a PDF usando **pandoc**.
+
+### Requisitos
+
+```bash
+# Instalar pandoc
+sudo apt install pandoc        # Ubuntu/Debian
+sudo dnf install pandoc        # Fedora
+brew install pandoc            # macOS
+
+# Instalar weasyprint (motor PDF)
+pip install weasyprint
+```
+
+### Uso
+
+```bash
+# Dar permisos de ejecución (primera vez)
+chmod +x scripts/export-pdf.sh
+
+# Ejecutar desde la raíz del repositorio
+./scripts/export-pdf.sh
+```
+
+Los PDFs se generan en `docs/pdf/`.

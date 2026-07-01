@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-BOOTCAMP_DIR="$(cd "$(dirname "$0")" && pwd)"
+BOOTCAMP_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 OUTPUT_DIR="$BOOTCAMP_DIR/docs/pdf"
 
 mkdir -p "$OUTPUT_DIR"
