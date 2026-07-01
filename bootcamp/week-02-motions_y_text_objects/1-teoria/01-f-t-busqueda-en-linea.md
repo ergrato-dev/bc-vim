@@ -30,6 +30,8 @@ Para llegar al guion bajo de `user_input`:
 
 ### 2. f{char}: Find
 
+![f vs t — cursor SOBRE el carácter vs ANTES del carácter](../0-assets/01-f-vs-t.svg)
+
 Salta el cursor **sobre** la siguiente ocurrencia de `{char}` en la línea actual.
 
 ```text

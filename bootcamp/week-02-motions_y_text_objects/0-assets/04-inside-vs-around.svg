@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240">
+  <rect width="640" height="240" fill="#1e1e2e"/>
+
+  <text x="320" y="28" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle">i (inside) vs a (around) — la diferencia clave de text objects</text>
+
+  <!-- Row 1: i" — inside quotes -->
+  <rect x="15" y="44" width="610" height="76" rx="5" fill="#181825" stroke="#313244" stroke-width="1"/>
+
+  <text x="30" y="68" fill="#89b4fa" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="13" font-weight="700">ci"</text>
+  <text x="30" y="84" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11">inside</text>
+
+  <!-- code: const msg = "Hola mundo"; -->
+  <!-- quote at ~x=250, content starts at 258, ends at ~x=365, closing quote at 373 -->
+  <text x="95" y="75" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="15">const msg = </text>
+  <text x="267" y="75" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="15">"</text>
+  <!-- highlight only "Hola mundo" (inside, no quotes) -->
+  <rect x="276" y="58" width="100" height="20" fill="#89b4fa" opacity="0.25" rx="2"/>
+  <text x="276" y="75" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="15">Hola mundo</text>
+  <text x="376" y="75" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="15">";</text>
+
+  <!-- bracket showing what's selected -->
+  <line x1="276" y1="85" x2="375" y2="85" stroke="#89b4fa" stroke-width="2"/>
+  <line x1="276" y1="82" x2="276" y2="88" stroke="#89b4fa" stroke-width="2"/>
+  <line x1="375" y1="82" x2="375" y2="88" stroke="#89b4fa" stroke-width="2"/>
+  <text x="326" y="100" fill="#89b4fa" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" text-anchor="middle">selecciona solo el contenido (sin comillas)</text>
+
+  <!-- Row 2: a" — around quotes -->
+  <rect x="15" y="132" width="610" height="76" rx="5" fill="#181825" stroke="#313244" stroke-width="1"/>
+
+  <text x="30" y="156" fill="#a6e3a1" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="13" font-weight="700">ca"</text>
+  <text x="30" y="172" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11">around</text>
+
+  <text x="95" y="163" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="15">const msg = </text>
+  <!-- highlight "Hola mundo" INCLUDING quotes -->
+  <rect x="267" y="146" width="110" height="20" fill="#a6e3a1" opacity="0.25" rx="2"/>
+  <text x="267" y="163" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="15">"Hola mundo"</text>
+  <text x="377" y="163" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="15">;</text>
+
+  <line x1="267" y1="173" x2="376" y2="173" stroke="#a6e3a1" stroke-width="2"/>
+  <line x1="267" y1="170" x2="267" y2="176" stroke="#a6e3a1" stroke-width="2"/>
+  <line x1="376" y1="170" x2="376" y2="176" stroke="#a6e3a1" stroke-width="2"/>
+  <text x="322" y="188" fill="#a6e3a1" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" text-anchor="middle">selecciona contenido + comillas</text>
+
+  <!-- Bottom note -->
+  <text x="320" y="228" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" text-anchor="middle">aplica igual con ( ) { } [ ] ' ` y tags HTML: it/at</text>
+</svg>

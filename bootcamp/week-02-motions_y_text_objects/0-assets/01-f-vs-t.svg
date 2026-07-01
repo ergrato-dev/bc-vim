@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="230" viewBox="0 0 640 230">
+  <rect width="640" height="230" fill="#1e1e2e"/>
+
+  <text x="320" y="30" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle">f{char} — cursor SOBRE el carácter  |  t{char} — cursor ANTES del carácter</text>
+
+  <!-- Row 1: f= -->
+  <rect x="15" y="45" width="610" height="72" rx="5" fill="#181825" stroke="#313244" stroke-width="1"/>
+  <text x="30" y="68" fill="#cba6f7" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700">f=</text>
+
+  <!-- code line -->
+  <text x="75" y="72" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="15">const name = value;</text>
+
+  <!-- cursor ON '=' (char 11, x=75+11*9=174) -->
+  <rect x="174" y="56" width="9" height="18" fill="#f9e2af" opacity="0.85"/>
+
+  <!-- arrow pointing up to cursor -->
+  <line x1="178" y1="90" x2="178" y2="80" stroke="#f9e2af" stroke-width="1.5" marker-end="url(#arr-y)"/>
+  <text x="178" y="104" fill="#f9e2af" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" text-anchor="middle">cursor SOBRE '='</text>
+
+  <!-- Row 2: t= -->
+  <rect x="15" y="130" width="610" height="72" rx="5" fill="#181825" stroke="#313244" stroke-width="1"/>
+  <text x="30" y="153" fill="#a6e3a1" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700">t=</text>
+
+  <text x="75" y="157" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="15">const name = value;</text>
+
+  <!-- cursor BEFORE '=' (space at x=75+10*9=165) -->
+  <rect x="165" y="141" width="9" height="18" fill="#a6e3a1" opacity="0.85"/>
+
+  <line x1="169" y1="175" x2="169" y2="165" stroke="#a6e3a1" stroke-width="1.5" marker-end="url(#arr-g)"/>
+  <text x="169" y="189" fill="#a6e3a1" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" text-anchor="middle">cursor ANTES de '='</text>
+
+  <defs>
+    <marker id="arr-y" markerWidth="6" markerHeight="6" refX="3" refY="6" orient="auto">
+      <polygon points="0,6 3,0 6,6" fill="#f9e2af"/>
+    </marker>
+    <marker id="arr-g" markerWidth="6" markerHeight="6" refX="3" refY="6" orient="auto">
+      <polygon points="0,6 3,0 6,6" fill="#a6e3a1"/>
+    </marker>
+  </defs>
+
+  <!-- Tip at bottom right -->
+  <text x="625" y="222" fill="#585b70" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" text-anchor="end">f = find (encima)  ·  t = till (antes)</text>
+</svg>

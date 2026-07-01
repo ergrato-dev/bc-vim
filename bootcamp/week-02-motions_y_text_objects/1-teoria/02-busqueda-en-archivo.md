@@ -11,6 +11,8 @@
 
 ## 📋 Contenido
 
+![Direcciones de búsqueda: / adelante, ? atrás, n y N para navegar](../0-assets/02-search-directions.svg)
+
 ### 1. /patrón: Buscar hacia Adelante
 
 Busca el patrón desde la posición del cursor hacia el final del archivo.

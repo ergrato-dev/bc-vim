@@ -30,6 +30,8 @@ Vim con text objects:
 
 ### 2. Inside (`i`) vs Around (`a`)
 
+![i (inside) vs a (around) — qué queda seleccionado en cada caso](../0-assets/04-inside-vs-around.svg)
+
 Todos los text objects tienen dos variantes:
 
 | Prefijo | Significado | Incluye |

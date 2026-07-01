@@ -37,6 +37,8 @@ Vim:
 
 ### 2. La Gramática de Vim
 
+![Gramática de Vim: verbo + cantidad opcional + sustantivo = acción](../0-assets/05-vim-grammar.svg)
+
 ```text
 {verbo}{cantidad opcional}{sustantivo}
 

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300">
+  <rect width="640" height="300" fill="#1e1e2e"/>
+
+  <text x="320" y="28" fill="#cdd6f4" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle">Búsqueda en archivo: / ? n N</text>
+
+  <!-- File pane -->
+  <rect x="180" y="44" width="280" height="210" rx="6" fill="#181825" stroke="#313244" stroke-width="1"/>
+
+  <!-- 7 code lines, 28px each, baseline at line_top+19 -->
+  <!-- Lines y: 44,72,100,128,156,184,212 baselines: 63,91,119,147,175,203,231 -->
+  <text x="200" y="63"  fill="#585b70" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="13">import os</text>
+  <text x="200" y="91"  fill="#585b70" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="13">import sys</text>
+  <text x="200" y="119" fill="#585b70" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="13">def setup():</text>
+
+  <!-- Current cursor line (highlighted) -->
+  <rect x="180" y="128" width="280" height="28" fill="#252540"/>
+  <text x="200" y="147" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="13">    config = {}</text>
+  <!-- cursor block -->
+  <rect x="200" y="131" width="8" height="18" fill="#cdd6f4" opacity="0.85"/>
+
+  <text x="200" y="175" fill="#585b70" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="13">    run(config)</text>
+  <text x="200" y="203" fill="#585b70" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="13">def teardown():</text>
+  <text x="200" y="231" fill="#585b70" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="13">    pass</text>
+
+  <!-- /pattern: forward (down), arrow on RIGHT side -->
+  <!-- Arrow from right side of file going down -->
+  <line x1="490" y1="142" x2="490" y2="220" stroke="#89b4fa" stroke-width="2" stroke-dasharray="4,2"/>
+  <polygon points="484,215 490,228 496,215" fill="#89b4fa"/>
+  <text x="510" y="155" fill="#89b4fa" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="14" font-weight="700">/</text>
+  <text x="510" y="172" fill="#89b4fa" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11">adelante</text>
+  <text x="510" y="187" fill="#89b4fa" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11">↓ abajo</text>
+
+  <!-- n = same direction, small arrow right/down -->
+  <text x="510" y="220" fill="#a6e3a1" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="13" font-weight="700">n</text>
+  <text x="525" y="220" fill="#a6e3a1" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11"> = misma dir.</text>
+
+  <!-- ?pattern: backward (up), arrow on LEFT side -->
+  <line x1="150" y1="142" x2="150" y2="64" stroke="#cba6f7" stroke-width="2" stroke-dasharray="4,2"/>
+  <polygon points="144,70 150,57 156,70" fill="#cba6f7"/>
+  <text x="60" y="115" fill="#cba6f7" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="14" font-weight="700">?</text>
+  <text x="40" y="130" fill="#cba6f7" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11">atrás</text>
+  <text x="40" y="145" fill="#cba6f7" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11">↑ arriba</text>
+
+  <!-- N = opposite direction, small arrow left/up -->
+  <text x="40" y="168" fill="#f38ba8" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="13" font-weight="700">N</text>
+  <text x="55" y="168" fill="#f38ba8" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11"> = dir. opuesta</text>
+
+  <!-- Legend at bottom -->
+  <line x1="30" y1="272" x2="280" y2="272" stroke="#313244" stroke-width="1"/>
+  <text x="30" y="288" fill="#89b4fa" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11">/patrón → adelante (↓)   n = siguiente (misma dir.)</text>
+  <text x="30" y="298" fill="#cba6f7" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11">?patrón → atrás (↑)       N = siguiente (dir. opuesta)</text>
+</svg>

@@ -11,6 +11,8 @@
 
 ## 📋 Contenido
 
+![% salta al delimitador correspondiente: () {} []](../0-assets/03-percent-matching.svg)
+
 ### 1. %: Salto entre Pares
 
 `%` salta al delimitador que hace par con el que está bajo el cursor.
